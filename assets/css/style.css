@@ -1,15 +1,40 @@
 .for_box{
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
 }
 .box{
+    width: 600px;
+    padding: 10px 60px;
+    border-radius: 20px;
+    border: 1px solid rgb(63, 101, 102); 
+}
+.author_id{
     display: flex;
-    align-items: center;
-    border: 1px solid red;
-    border-radius:20px;
-    color: brown;
-    width: 50px;
-    height: 50px;
-    justify-content: center
+    justify-content: space-between;
+}
+.name_date{
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    color: rgb(63, 101, 102);
+    font-size: 32px;
+}
+.date{
+    color: rgba(63, 101, 102, 0.845);
+    font-size: 14px;
+}
+.author{
+    color: rgb(63, 101, 102);
+    font-size: 20px;
+}
+.id{
+    color: rgb(63, 101, 102);
+    font-size: 16px;
+}
+.text{
+    color: rgb(63, 101, 102);
+    font-size: 18px;
 }
