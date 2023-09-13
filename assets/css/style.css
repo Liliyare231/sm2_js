@@ -9,6 +9,7 @@
     padding: 10px 60px;
     border-radius: 20px;
     border: 1px solid rgb(63, 101, 102); 
+    color: burlywood;
 }
 .author_id{
     display: flex;
